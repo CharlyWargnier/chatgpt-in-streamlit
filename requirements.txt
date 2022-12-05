@@ -1,12 +1,2 @@
-import streamlit as st
-from datetime import datetime
-
-# Use the date_input() method to allow the user to select multiple dates
-date_list = st.date_input('Select the dates to drop:', 
-                          min_value=datetime(2010, 1, 1), 
-                          max_value=datetime(2020, 12, 31), 
-                          format='%Y-%m-%d',
-                          multiple=True)
-
-# Drop the rows that match the dates in the date_list
-df = df.drop(date_list)
+chatgpt
+streamlit
